@@ -1,7 +1,9 @@
-import bar from "@slack/bar";
-import { print } from "../../src/util";
+const bar = require("@slack/bar");
+const { print } = require("../../src/util");
 
-export default function foo() {
+function foo() {
   print("foo");
   bar();
 }
+
+module.exports = foo;

@@ -1,3 +1,5 @@
-export const print = (str) => {
-  console.log(str);
-};
+function print(str) {
+  console.log("bananaz2", str);
+}
+
+module.exports = { print };

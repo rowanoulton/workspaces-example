@@ -2,10 +2,13 @@
   "name": "@slack/foo",
   "version": "0.0.0",
   "scripts": {
-    "lint": "eslint --debug **/*.js"
+    "lint": "eslint **/*.js",
+    "test": "echo testing foo"
   },
   "dependencies": {
-    "@slack/bar": "workspace:*",
+    "@slack/bar": "workspace:*"
+  },
+  "devDependencies": {
     "eslint": "latest"
   }
 }
