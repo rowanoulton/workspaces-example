@@ -6,7 +6,6 @@
       "cache": true
     },
     "test": {
-      "inputs": ["*.js", "../../src/*.js"],
       "outputs": [],
       "cache": true
     }
