@@ -1,0 +1,7 @@
+{
+  "name": "@slack/foo",
+  "version": "0.0.0",
+  "dependencies": {
+    "@slack/bar": "workspace:*"
+  }
+}
