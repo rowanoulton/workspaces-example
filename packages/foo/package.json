@@ -3,12 +3,15 @@
   "version": "0.0.0",
   "scripts": {
     "lint": "eslint **/*.js",
-    "test": "echo testing foo"
+    "test": "echo testing foo",
+    "build": "esbuild --bundle foo.ts --outdir=dist"
   },
   "dependencies": {
-    "@slack/bar": "workspace:*"
+    "@slack/built-thing": "workspace:*",
+    "@slack/raw-thing": "workspace:*"
   },
   "devDependencies": {
+    "esbuild": "^0.17.4",
     "eslint": "latest"
   }
 }

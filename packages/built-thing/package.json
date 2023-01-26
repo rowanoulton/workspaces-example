@@ -1,0 +1,15 @@
+{
+  "name": "@slack/built-thing",
+  "type": "module",
+  "version": "0.0.0",
+  "main": "dist/built-thing.js",
+  "files": [
+    "dist/built-thing.js"
+  ],
+  "scripts": {
+    "build": "esbuild --bundle built-thing.ts --outdir=dist --format=esm"
+  },
+  "devDependencies": {
+    "esbuild": "^0.17.4"
+  }
+}

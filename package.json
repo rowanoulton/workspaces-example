@@ -6,7 +6,8 @@
   ],
   "scripts": {
     "lint": "turbo run lint",
-    "test": "turbo run test"
+    "test": "turbo run test",
+    "build": "turbo run build"
   },
   "devDependencies": {
     "turbo": "^1.7.0"

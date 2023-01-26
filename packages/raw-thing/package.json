@@ -1,0 +1,9 @@
+{
+  "name": "@slack/raw-thing",
+  "type": "module",
+  "version": "0.0.0",
+  "main": "raw.ts",
+  "files": [
+    "raw.ts"
+  ]
+}
