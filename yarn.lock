@@ -242,6 +242,7 @@ __metadata:
   dependencies:
     "@slack/built-thing": "workspace:*"
     "@slack/raw-thing": "workspace:*"
+    "@slack/typed-thing": "workspace:*"
     esbuild: ^0.17.4
     eslint: latest
   languageName: unknown
@@ -250,6 +251,12 @@ __metadata:
 "@slack/raw-thing@workspace:*, @slack/raw-thing@workspace:packages/raw-thing":
   version: 0.0.0-use.local
   resolution: "@slack/raw-thing@workspace:packages/raw-thing"
+  languageName: unknown
+  linkType: soft
+
+"@slack/typed-thing@workspace:*, @slack/typed-thing@workspace:packages/typed-thing":
+  version: 0.0.0-use.local
+  resolution: "@slack/typed-thing@workspace:packages/typed-thing"
   languageName: unknown
   linkType: soft
 
