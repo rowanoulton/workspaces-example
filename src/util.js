@@ -1,5 +1,5 @@
 function print(str) {
-  console.log("bananaz2", str);
+  console.log("croissant", str);
 }
 
 module.exports = { print };
