@@ -3,6 +3,7 @@
   "type": "module",
   "version": "0.0.0",
   "main": "dist/built-thing.js",
+  "types": "built-thing.ts",
   "files": [
     "dist/built-thing.js"
   ],

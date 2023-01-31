@@ -47,7 +47,17 @@
 
   // foo.ts
   var import_util = __toESM(require_util());
+
+  // ../typed-thing/index.ts
+  var thing = {
+    id: 123,
+    name: "baz"
+  };
+
+  // foo.ts
   function foo() {
+    const b = thing;
+    console.log(b.id, b.name);
     (0, import_util.print)("foo");
     builtThing();
     rawThing();
